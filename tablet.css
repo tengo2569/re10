@@ -1,0 +1,85 @@
+@media (width > 768px) {
+    .categorybox{
+        animation-name: welcome;
+        animation-duration: 4s;
+    }
+    
+    .imagebox1{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 15px;
+        overflow: hidden;
+        
+    }
+    .imgcolumn1, .imgcolumn3, .imgcolumn5{
+        display: grid;
+        margin-top: 25px;
+    }
+    .imgcolumn2, .imgcolumn4, .imgcolumn6{
+        display: grid;
+    }
+    .textbox1{
+        margin-top: 50px;
+    }
+    h3{
+        margin:auto;
+        font-size: 48px;
+        width: 339px;
+    }
+    .meet{
+        width: 457px;
+    }
+    .buttbox{
+        margin-top: 50px;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .imagebox2{
+        display: flex;
+        gap:25px ;
+
+
+    }
+    .box2-1, .box2-2, .box2-3, .box2-4{
+        margin-bottom: 0;
+        width: 170px;
+        height: 165px;
+    }
+    h4{
+        margin: auto;
+        width: 445px;
+        font-size: 40px;
+    }
+    p{
+        margin-top: 32px;
+        width: 573px;
+        height: 78px;
+    }
+    .icons{
+        width: 110px;
+        height: 110px;
+    }
+    .buttbox{
+        position: relative;
+        top: -300px;
+    }
+.
+    @keyframes welcome {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        
+      }
+
+    }
+    
+    
